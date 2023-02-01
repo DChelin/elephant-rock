@@ -8,14 +8,14 @@
 
 <!-- Tab links -->
 <div class="tab">
-  
   <button class="tablinks" onclick="openCity(event, 'future-tab')"><?= $futureRatesTitleTab; ?></button>
   <button class="tablinks" onclick="openCity(event, 'spec-tab')"><?= $specTitleTab; ?></button>
   <button class="tablinks" onclick="openCity(event, 'tc-tab')"><?= $tcTitleTab; ?></button>
 </div>
 
 <!-- BELOW CODE WAS ABOVE LINE 11 - TO DISPLAY THE 2022 RATES TAB WHICH WAS REMOVED. -->
-<button class="tablinks active" onclick="openCity(event, 'rates-tab')"><?= $ratesTitleTab; ?></button>
+<!-- <button class="tablinks active" onclick="openCity(event, 'rates-tab')"></button>
+<!-- This was between php tags in the above code for the html button tag $ratesTitleTab; ?>
 
 <!-- Tab content -->
 <div id="rates-tab" class="tabcontent">
